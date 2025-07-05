@@ -1,0 +1,34 @@
+{
+  "updateProduct": {
+    "id": "sampleProductId123",
+    "name": "Updated Test Product",
+    "price": 120,
+    "offerPrice": 100,
+    "description": "Updated description for test product",
+    "category": "test-category-1",
+    "image": ["updated-image.jpg"]
+  },
+  "deleteProduct": {
+    "id": "sampleProductId123"
+  },
+  "searchProducts": {
+    "search": "Test",
+    "category": "test-category-1",
+    "page": 1,
+    "limit": 5
+  },
+  "ratings": [
+    {
+      "productId": "sampleProductId123",
+      "userId": "sampleUserId1",
+      "rating": 4,
+      "comment": "Good product"
+    },
+    {
+      "productId": "sampleProductId123",
+      "userId": "sampleUserId2",
+      "rating": 5,
+      "comment": "Excellent quality"
+    }
+  ]
+}
